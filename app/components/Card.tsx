@@ -20,7 +20,7 @@ export default function Card({ title, image, price }: CardProps) {
         />
       </div>
       <div className=" flex flex-col gap-2 mt-3">
-        <h4 className=" text-xl font-bold">{title}</h4>
+        <h4 className=" text-xl font-bold">{image}</h4>
         <p className=" text-sm text-gray-500 italic">${price}</p>
         <p className=" text-amber-500 text-xl mt-3 flex flex-row gap-2 items-cente">
           Buy
