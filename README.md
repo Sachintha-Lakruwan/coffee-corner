@@ -173,22 +173,6 @@ No environment variables required for basic setup.
 - Static assets are automatically optimized
 - Built with Next.js for optimal performance
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-
-**Sachintha Lakruwan**
-
 ---
 
 **Note:** Make sure to replace `your_mongodb_connection_string` with your actual MongoDB connection string before running the backend.
