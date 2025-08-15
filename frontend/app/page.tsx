@@ -13,7 +13,7 @@ export default function Home() {
         url="/products/get/featured"
       />
       <VideoBanner />
-      <WhyWe />
+      {/* <WhyWe /> */}
       <BestProducts title="Shop Us" limit={12} url="/products" />
     </div>
   );
