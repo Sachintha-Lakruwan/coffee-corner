@@ -11,7 +11,7 @@ const authJwt = () => {
     }).unless({
         path: [
             `${api}/users/login`,
-            `${api}/users/register`,
+            { url: `${api}/users`, methods: ['POST'] },
             { url: new RegExp(`${api}/products(.*)`), methods: ['GET'] },
             { url: new RegExp(`${api}/categories(.*)`), methods: ['GET'] },
             `/`,
