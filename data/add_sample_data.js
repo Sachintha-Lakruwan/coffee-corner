@@ -1,12 +1,14 @@
-const data = require("./sample_categories.json");
+const category_data = require("./sample_categories.json");
+const product_data = require("./sample_products.json");
 const Category = require("../backend/model/category");
-const { error } = require("console");
+const Product = require("../backend/model/product");
 
 const API = process.env.API_URL || "/api/v1";
 const BASE_URL = process.env.BASE_URL || "http://localhost:";
 const PORT = process.env.PORT || 3001;
 
-const categories = data["categories"];
+const categories = category_data["categories"];
+const products = product_data["products"];
 
 async function createAdminAccount() {
   try {
@@ -14,7 +16,7 @@ async function createAdminAccount() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        name: "Admin1",
+        name: "Admin2",
         email: "admin@example.com",
         password: "password123",
         street: "123 Main St",
@@ -60,6 +62,7 @@ async function createAdminAccount() {
 }
 
 async function postCategories(token) {
+  const saved_categories = [];
   for (let i = 0; i < categories.length; i++) {
     const response = await fetch(
       BASE_URL + PORT.toString() + API + "/categories",
@@ -74,13 +77,43 @@ async function postCategories(token) {
     );
 
     const result = await response.json();
+    saved_categories.push(result);
+  }
+  return saved_categories;
+}
+
+async function postProdcuts(saved_categories, token) {
+  let id_map = {};
+
+  for (let i = 0; i < categories.length; i++) {
+    id_map[categories[i]["id"]] = saved_categories[i]["id"];
+  }
+
+  for (let i = 0; i < products.length; i++) {
+    const response = await fetch(
+      BASE_URL + PORT.toString() + API + "/products",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          ...products[i],
+          category: id_map[products[i]["category"]["$oid"]],
+        }),
+      }
+    );
+
+    const result = await response.json();
     console.log(result);
   }
 }
 
 async function postData() {
   const token = await createAdminAccount();
-  postCategories(token);
+  const result = await postCategories(token);
+  postProdcuts(result, token);
 }
 
 postData();

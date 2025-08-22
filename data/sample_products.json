@@ -1,115 +1,115 @@
 {
-    "products": [
-        {
-            "name": "Classic Espresso",
-            "description": "Rich and bold single-shot espresso.",
-            "richDescription": "Perfect for a quick caffeine boost with intense flavor.",
-            "image": "classic-espresso.jpg",
-            "price": 3.5,
-            "category": { "$oid": "688620d6f5b125ff7b8de908" },
-            "rating": 4.8
-        },
-        {
-            "name": "Double Espresso",
-            "description": "Two shots of rich espresso.",
-            "richDescription": "Strong and full-bodied, perfect for espresso lovers.",
-            "image": "double-espresso.jpg",
-            "price": 4.5,
-            "category": { "$oid": "688620d6f5b125ff7b8de908" },
-            "rating": 4.9
-        },
-        {
-            "name": "Ristretto",
-            "description": "A shorter, more concentrated shot of espresso.",
-            "richDescription": "Perfect for an intense espresso experience.",
-            "image": "ristretto.jpg",
-            "price": 3.8,
-            "category": { "$oid": "688620d6f5b125ff7b8de908" },
-            "rating": 4.7
-        },
+  "products": [
+    {
+      "name": "Classic Espresso",
+      "description": "Rich and bold single-shot espresso.",
+      "richDescription": "Perfect for a quick caffeine boost with intense flavor.",
+      "image": "classic-espresso.jpg",
+      "price": 3.5,
+      "category": { "$oid": "66cde000000000000000001" },
+      "rating": 4.8
+    },
+    {
+      "name": "Double Espresso",
+      "description": "Two shots of rich espresso.",
+      "richDescription": "Strong and full-bodied, perfect for espresso lovers.",
+      "image": "double-espresso.jpg",
+      "price": 4.5,
+      "category": { "$oid": "66cde000000000000000001" },
+      "rating": 4.9
+    },
+    {
+      "name": "Ristretto",
+      "description": "A shorter, more concentrated shot of espresso.",
+      "richDescription": "Perfect for an intense espresso experience.",
+      "image": "ristretto.jpg",
+      "price": 3.8,
+      "category": { "$oid": "66cde000000000000000001" },
+      "rating": 4.7
+    },
 
-        {
-            "name": "Vanilla Latte",
-            "description": "Espresso with steamed milk and vanilla flavor.",
-            "richDescription": "Smooth and creamy, a sweet coffee indulgence.",
-            "image": "vanilla-latte.jpg",
-            "price": 4.8,
-            "category": { "$oid": "688620d6f5b125ff7b8de909" },
-            "rating": 4.6
-        },
-        {
-            "name": "Caramel Latte",
-            "description": "Espresso, milk, and rich caramel syrup.",
-            "richDescription": "Perfectly balanced sweetness and coffee flavor.",
-            "image": "caramel-latte.jpg",
-            "price": 5.0,
-            "category": { "$oid": "688620d6f5b125ff7b8de909" },
-            "rating": 4.9
-        },
-        {
-            "name": "Hazelnut Latte",
-            "description": "Creamy latte with hazelnut flavor.",
-            "richDescription": "Nutty aroma with a smooth coffee base.",
-            "image": "hazelnut-latte.jpg",
-            "price": 5.2,
-            "category": { "$oid": "688620d6f5b125ff7b8de909" },
-            "rating": 4.8
-        },
+    {
+      "name": "Vanilla Latte",
+      "description": "Espresso with steamed milk and vanilla flavor.",
+      "richDescription": "Smooth and creamy, a sweet coffee indulgence.",
+      "image": "vanilla-latte.jpg",
+      "price": 4.8,
+      "category": { "$oid": "66cde000000000000000002" },
+      "rating": 4.6
+    },
+    {
+      "name": "Caramel Latte",
+      "description": "Espresso, milk, and rich caramel syrup.",
+      "richDescription": "Perfectly balanced sweetness and coffee flavor.",
+      "image": "caramel-latte.jpg",
+      "price": 5.0,
+      "category": { "$oid": "66cde000000000000000002" },
+      "rating": 4.9
+    },
+    {
+      "name": "Hazelnut Latte",
+      "description": "Creamy latte with hazelnut flavor.",
+      "richDescription": "Nutty aroma with a smooth coffee base.",
+      "image": "hazelnut-latte.jpg",
+      "price": 5.2,
+      "category": { "$oid": "66cde000000000000000002" },
+      "rating": 4.8
+    },
 
-        {
-            "name": "Classic Cappuccino",
-            "description": "Espresso with steamed milk and a foamy top.",
-            "richDescription": "A timeless coffee favorite for every occasion.",
-            "image": "classic-cappuccino.jpg",
-            "price": 4.0,
-            "category": { "$oid": "688620d6f5b125ff7b8de90a" },
-            "rating": 4.7
-        },
-        {
-            "name": "Mocha Cappuccino",
-            "description": "Cappuccino with rich chocolate flavor.",
-            "richDescription": "Blends chocolate and coffee into one perfect cup.",
-            "image": "mocha-cappuccino.jpg",
-            "price": 4.5,
-            "category": { "$oid": "688620d6f5b125ff7b8de90a" },
-            "rating": 4.6
-        },
-        {
-            "name": "Iced Cappuccino",
-            "description": "Chilled cappuccino with ice cubes.",
-            "richDescription": "Refreshing and creamy with a strong coffee taste.",
-            "image": "iced-cappuccino.jpg",
-            "price": 4.3,
-            "category": { "$oid": "688620d6f5b125ff7b8de90a" },
-            "rating": 4.5
-        },
+    {
+      "name": "Classic Cappuccino",
+      "description": "Espresso with steamed milk and a foamy top.",
+      "richDescription": "A timeless coffee favorite for every occasion.",
+      "image": "classic-cappuccino.jpg",
+      "price": 4.0,
+      "category": { "$oid": "66cde000000000000000003" },
+      "rating": 4.7
+    },
+    {
+      "name": "Mocha Cappuccino",
+      "description": "Cappuccino with rich chocolate flavor.",
+      "richDescription": "Blends chocolate and coffee into one perfect cup.",
+      "image": "mocha-cappuccino.jpg",
+      "price": 4.5,
+      "category": { "$oid": "66cde000000000000000003" },
+      "rating": 4.6
+    },
+    {
+      "name": "Iced Cappuccino",
+      "description": "Chilled cappuccino with ice cubes.",
+      "richDescription": "Refreshing and creamy with a strong coffee taste.",
+      "image": "iced-cappuccino.jpg",
+      "price": 4.3,
+      "category": { "$oid": "66cde000000000000000003" },
+      "rating": 4.5
+    },
 
-        {
-            "name": "Classic Cold Brew",
-            "description": "Slow-brewed coffee served chilled.",
-            "richDescription": "Smooth, less acidic, and perfect for hot days.",
-            "image": "classic-cold-brew.jpg",
-            "price": 4.8,
-            "category": { "$oid": "688620d6f5b125ff7b8de90b" },
-            "rating": 4.9
-        },
-        {
-            "name": "Vanilla Cold Brew",
-            "description": "Cold brew with a hint of vanilla.",
-            "richDescription": "A light, sweet, and smooth coffee drink.",
-            "image": "vanilla-cold-brew.jpg",
-            "price": 5.0,
-            "category": { "$oid": "688620d6f5b125ff7b8de90b" },
-            "rating": 4.8
-        },
-        {
-            "name": "Nitro Cold Brew",
-            "description": "Cold brew infused with nitrogen for a creamy texture.",
-            "richDescription": "Bold and smooth with a natural sweetness.",
-            "image": "nitro-cold-brew.jpg",
-            "price": 5.5,
-            "category": { "$oid": "688620d6f5b125ff7b8de90b" },
-            "rating": 4.9
-        }
-    ]
+    {
+      "name": "Classic Cold Brew",
+      "description": "Slow-brewed coffee served chilled.",
+      "richDescription": "Smooth, less acidic, and perfect for hot days.",
+      "image": "classic-cold-brew.jpg",
+      "price": 4.8,
+      "category": { "$oid": "66cde000000000000000004" },
+      "rating": 4.9
+    },
+    {
+      "name": "Vanilla Cold Brew",
+      "description": "Cold brew with a hint of vanilla.",
+      "richDescription": "A light, sweet, and smooth coffee drink.",
+      "image": "vanilla-cold-brew.jpg",
+      "price": 5.0,
+      "category": { "$oid": "66cde000000000000000004" },
+      "rating": 4.8
+    },
+    {
+      "name": "Nitro Cold Brew",
+      "description": "Cold brew infused with nitrogen for a creamy texture.",
+      "richDescription": "Bold and smooth with a natural sweetness.",
+      "image": "nitro-cold-brew.jpg",
+      "price": 5.5,
+      "category": { "$oid": "66cde000000000000000004" },
+      "rating": 4.9
+    }
+  ]
 }
